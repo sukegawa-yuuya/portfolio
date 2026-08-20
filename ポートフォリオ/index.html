@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>助川 祐哉 | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">Yuya Sukegawa's portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. PROFILE -->
+        <section id="profile" class="section">
+            <div class="container">
+                <h2>PROFILE</h2>
+                <div class="profile-content">
+                    <p class="profile-name"><strong>助川 祐哉（すけがわ ゆうや）</strong></p>
+                    <p class="profile-school">さいたまIT・WEB専門学校 高度専門士情報技術科 3年生</p>
+                    <p class="profile-text">
+                        はじめまして、助川祐哉と申します。現在は高度専門士情報技術科にて、バックエンドからインフラ、モバイルアプリ開発まで幅広くIT技術を学んでいます。<br>
+                        授業で体系的に学ぶだけでなく、個人開発やチーム開発において実際に動くWebサービスを作るプロセスを大切にしており、新しい技術の独学にも積極的に挑戦しています。<br>
+                        将来は、開発からクラウドインフラまで最適な設計を行えるエンジニアとして、実務での業務効率化とサービス価値の向上に貢献したいと考えています。
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. SKILL -->
+        <section id="skill" class="section">
+            <div class="container">
+                <h2>SKILL</h2>
+                
+                <div class="skill-category">
+                    <h3>Backend & Database</h3>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-rate">★★★★☆</span>
+                            <span class="skill-period">経験：2年</span>
+                        </div>
+                        <p class="skill-desc">
+                            タプルや辞書型などのデータ構造、2次元配列の集計ロジックや乱数を用いたエレベーターの運行シミュレータの実装を通じて、論理的思考力とアルゴリズムの基礎を習得しています。<br>
+                            また、Jupyter Notebook環境でpandasやmatplotlibを用いたデータ分析・前処理に加え、scikit-learnを活用した機械学習アルゴリズムの基礎的な実装経験もあります。
+                        </p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-rate">★★★★☆</span>
+                            <span class="skill-period">経験：1年半</span>
+                        </div>
+                        <p class="skill-desc">
+                            第1〜第3正規化を用いたデータベース設計やER図の作成、MySQL Workbenchでのテーブル構築から、DDL・ダンプファイルの出力までの一連の管理手法を習得しています。<br>
+                            演習では、集計関数やサブクエリを用いた複雑なデータ抽出に加え、複数テーブル間の整合性を保つためのトランザクション処理を含む、実践的なCRUD操作の構築経験があります。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frontend & Mobile</h3>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5 / CSS3</span>
+                            <span class="skill-rate">★★★★☆</span>
+                            <span class="skill-period">経験：1年半</span>
+                        </div>
+                        <p class="skill-desc">
+                            セマンティックなマークアップやFlexbox、レスポンシブ対応を用いたモダンなカフェWebサイトなどの制作を通じ、レイアウト設計の基礎を習得しています。<br>
+                            また、DOM操作を用いた電卓や15パズル、ゲーム画面UIの実装演習を通じて、動的にマークアップを制御・デザインする応用力も備えています。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-rate">★★★★☆</span>
+                            <span class="skill-period">経験：1年半</span>
+                        </div>
+                        <p class="skill-desc">
+                            WORKSにある「Puyo Programming Custom」を通じ、ゲームループや非同期処理、状態遷移といった複雑なフロントエンド制御や開発手法を理解しています。<br>
+                            また、Node.jsやExpress、Prisma（ORM）を用いたWeb API開発や、Dockerによるコンテナ管理、Socket.ioを用いたリアルタイムクイズ対戦サーバーの構築を経験しました。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Swift</span>
+                            <span class="skill-rate">★★☆☆☆</span>
+                            <span class="skill-period">経験：半年</span>
+                        </div>
+                        <p class="skill-desc">
+                            教材の写経や実践を通じて、SwiftUIでの画面レイアウト、音源制御、UserDefaultsを用いたデータの保存といったiOSアプリの基本動作を学習しました。<br>
+                            また、楽天市場商品検索APIと連携させた商品の絞り込み機能や、Webページへの遷移機能の実装に取り組み、外部APIを活用したアプリ開発の流れを経験しています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & Infra & Hardware</h3>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Firebase</span>
+                            <span class="skill-rate">★★★☆☆</span>
+                            <span class="skill-period">経験：3ヵ月（独学）</span>
+                        </div>
+                        <p class="skill-desc">
+                            チーム開発「FE Speed Quiz」や「Puyo Programming Custom」にて、Firebase Authenticationを用いた認証機能を設計・構築しました。<br>
+                            ユーザー利便性を高める「匿名ログイン」に加え、Google認証との連携やCloud Firestoreを用いたハイスコア・進行状況の永続化、ドメイン制限によるセキュリティ管理を実践しています。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">AWS</span>
+                            <span class="skill-rate">★★★☆☆</span>
+                            <span class="skill-period">経験：半年</span>
+                        </div>
+                        <p class="skill-desc">
+                            VPCを用いたパブリック・プライベートサブネットの分割やセキュリティグループの制御など、セキュアなインフラ構築の基本を理解しています。<br>
+                            さらに、Monacaアプリと連携したLambda、S3、DynamoDBによるサーバーレス構成を自ら構築し、CloudWatchを用いたログ解析によるエラー解消までの一連のクラウド開発を実践しました。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Linux</span>
+                            <span class="skill-rate">★★★☆☆</span>
+                            <span class="skill-period">経験：1年</span>
+                        </div>
+                        <p class="skill-desc">
+                            AlmaLinuxとUbuntuの双方で、パッケージ管理（dnf / apt）を用いたApacheやNginxといったWebサーバーの構築からサービス管理（systemctl）、ファイアウォール設定までを一元的に行えます。<br>
+                            CUI環境におけるユーザー権限管理（chmod / chown）、正規表現やgrep/findを用いたログ解析、環境変数の設定など、実務に必要な各種Linuxコマンドの基本操作を網羅して習得しています。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Raspberry Pi</span>
+                            <span class="skill-rate">★★☆☆☆</span>
+                            <span class="skill-period">経験：半年</span>
+                        </div>
+                        <p class="skill-desc">
+                            ブレッドボード上でダイオードを用いた整流・平滑回路や、トランジスタによるスイッチング・増幅、論理回路を構築し、電気・電子の基本原則と回路設計を実体験から学びました。<br>
+                            Raspberry Piを核として、VS Code上でPythonを用いて制御プログラムを自作し、超音波センサーや7セグメントディスプレイ、サーボモーター、ブザーなどの各種部品を組み合わせた電子工作を実践しています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Business & Automation</h3>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Power Automate</span>
+                            <span class="skill-rate">★★☆☆☆</span>
+                            <span class="skill-period">経験：半年</span>
+                        </div>
+                        <p class="skill-desc">
+                            RPAツールを用いた業務自動化の設計思想を理解し、Power Automate for desktopを活用した定型業務の自動化フローを自作できます。<br>
+                            具体的には、Excelに蓄積されたデータを読み込み、Webブラウザ（Chrome等）を自動操作して特定のフォームへデータを連続転記・スクレイピングする実用的なローコード開発を経験しています。
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">Excel</span>
+                            <span class="skill-rate">★★★☆☆</span>
+                            <span class="skill-period">経験：1年</span>
+                        </div>
+                        <p class="skill-desc">
+                            MOS Excel 365を保持しており、一般的なビジネス関数（SUMIF、RANK、DATEDIF等）を用いた実用的なデータ集計や効率的な帳票作成を迅速に行えます。<br>
+                            さらに、ビジネス統計の授業を通じて、相関係数やt検定・カイ二乗検定といった仮説検定、回帰分析、最適化問題の解法まで、Excelを用いた本格的なデータ分析の実践力を習得しています。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. WORKS -->
+        <section id="works" class="section">
+            <div class="container">
+                <h2>WORKS</h2>
+                
+                <div class="works-grid">
+
+                    <a href="works/quiz.html" class="work-card-link">
+                        <div class="work-card">
+                            <div class="work-image-container">
+                                <img src="images/quiz.png" alt="基本情報対策クイズサイト FE Speed Quiz">
+                            </div>
+                            <div class="work-info-summary">
+                                <h3>基本情報対策クイズサイト「FE Speed Quiz」</h3>
+                                <p class="work-lead-text">リアルタイムに対戦できるクイズWebサービス</p>
+                                <p class="work-tags">HTML / CSS / JS / Firebase</p>
+                                <span class="more-link">詳細を見る →</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="works/puyo.html" class="work-card-link">
+                        <div class="work-card">
+                            <div class="work-image-container">
+                                <img src="images/puyo.png" alt="Puyo Programming Custom">
+                            </div>
+                            <div class="work-info-summary">
+                                <h3>Puyo Programming Custom</h3>
+                                <p class="work-lead-text">ぷよぷよプログラミングの機能拡張・カスタム実装</p>
+                                <p class="work-tags">JavaScript / HTML / CSS / Firebase</p>
+                                <span class="more-link">詳細を見る →</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                
+                <!-- GitHubリンク -->
+                <div class="works-github" style="text-align: center; margin-top: 40px; font-size: 1.1rem;">
+                    <p>GitHub: <a href="https://github.com/sukegawa-yuuya" target="_blank" style="color: #007eed; text-decoration: underline;">github.com/sukegawa-yuuya</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; Yuya Sukegawa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
