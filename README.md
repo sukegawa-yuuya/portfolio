@@ -3,7 +3,7 @@
 助川 祐哉（Yuya Sukegawa）のポートフォリオサイトのリポジトリです。  
 これまでに作成したWebサービスや、使用可能な技術スキルをまとめています。
 
-🌐 **公開URL**: [https://sukegawa-yuuya.github.io/portfolio/](https://sukegawa-yuya.github.io/portfolio/)
+🌐 **公開URL**: [https://sukegawa-yuuya.github.io/portfolio/](https://sukegawa-yuuya.github.io/portfolio/)
 
 ---
 
